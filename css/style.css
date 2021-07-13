@@ -89,3 +89,45 @@ body{
     width: 3rem;
     height: 3rem;
 }
+
+/*----------------------------------------
+      top player start 
+-----------------------------------------= */
+.top{
+   background-color: #fff;
+   border-radius: 5px;
+   padding: 3.3rem;
+}
+/*--------------------------------- 
+     player section start
+-------------------------------------------  */
+.players-section{
+  margin-bottom: 3rem;
+}
+.player-title{
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: #562EFF;
+    margin-bottom: 4rem;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:3rem;
+}
+.player{
+   display: flex;
+   align-items: center;
+}
+.player-img img{
+    width:5rem;
+    height: 5rem;
+}
+.player p{
+    margin-left: 1.6rem;
+    font-size: 1.8rem;
+}
+
+/* -------------------------------------
+player section end 
+---------------------------------------- */
