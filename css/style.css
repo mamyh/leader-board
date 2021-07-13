@@ -10,6 +10,10 @@
     padding:0;
     box-sizing: border-box;
 }
+a{text-decoration: none;}
+ul{
+    list-style: none;
+}
 html{
      font-size: 62.5%;
 }
@@ -27,6 +31,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.title{
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: #562EFF;
+    margin-bottom: 4rem;
 }
 /*-------------------------------------
     header section start
@@ -90,13 +100,15 @@ body{
     height: 3rem;
 }
 
+
 /*----------------------------------------
       top player start 
 -----------------------------------------= */
 .top{
    background-color: #fff;
    border-radius: 5px;
-   padding: 3.3rem;
+   padding: 3.3rem; 
+   margin:3rem auto;
 }
 /*--------------------------------- 
      player section start
@@ -104,12 +116,7 @@ body{
 .players-section{
   margin-bottom: 3rem;
 }
-.player-title{
-    font-weight: 500;
-    font-size: 2.4rem;
-    color: #562EFF;
-    margin-bottom: 4rem;
-}
+
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -131,3 +138,30 @@ body{
 /* -------------------------------------
 player section end 
 ---------------------------------------- */
+/*--------------------------------------
+    blog section start 
+---------------------------------------- */
+.blog-section{
+  padding-top:3rem;
+}
+.blogs{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-row-gap: 2.6rem;
+}
+.blog{
+  display: flex;
+  align-items: center;
+}
+
+.blog-img img{
+    width:17.7rem;
+    height: 11.7rem;
+}
+.blog-text{
+   margin-left: 1.6rem;
+}
+.lbog-text p{
+    font-size: 1.6rem;
+    color:#9f9f9f;
+}
