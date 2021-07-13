@@ -37,6 +37,7 @@ body{
     font-size: 2.4rem;
     color: #562EFF;
     margin-bottom: 4rem;
+    text-transform: capitalize;
 }
 /*-------------------------------------
     header section start
@@ -165,3 +166,59 @@ player section end
     font-size: 1.6rem;
     color:#9f9f9f;
 }
+
+/*------------------------------- 
+     course start 
+--------------------------------- */
+.course-section{
+    background-color: #fff;
+    padding:3rem;
+}
+.courses{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course{
+    box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);
+    padding:1rem;
+    border-radius: 5px;
+}
+
+.course-img img{
+    width: 22.4rem;
+    height: 10.4rem;
+}
+.course-title{
+    margin:2rem auto .7rem;
+    font-size: 2rem;
+}
+.author{
+  font-size: 1.4rem;
+  color:#ED6B4F;
+  margin-bottom: 2rem;
+}
+.course-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-rating{
+    color: #A2A2A2;
+    font-size: 1.4rem;
+}
+.course-duration{
+    background-color: #ddadb2d5;
+    color:#FF4A60;
+    border-radius: 100px;
+    padding:.5rem;
+}
+.filled{
+    color:#FFC014;
+}
+.grey{
+    color:#A2A2A2;
+}
+/*------------------------------------- 
+      course end 
+--------------------------------------- */
